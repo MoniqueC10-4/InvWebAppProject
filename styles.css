@@ -1,0 +1,53 @@
+* {
+    border: 2px solid gold
+}
+header {
+    display: grid;
+    background: green;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* background: lightgray; */
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    /* color: aqua; */
+    .container:hover
+    /* background-color: plum; */
+    cursor:pointer
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: black;
+    font-style: italic;
+    /* : hover; */
+    /* background-color: plum; */
+    /* cursor: pointer; */
+    /* -webkit-transition: background-color 2s ease-out; */
+    /* -moz-transition: background-color 2s ease-out; */
+    /* -o-transition: background-color 2s ease-out; */
+    /* transition: background-color 2s ease-out; */
+}
+
+kick-card {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.item img {
+ /* display: none; */
+ width: 200px;
+ height: auto;
+}
+
